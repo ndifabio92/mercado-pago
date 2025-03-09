@@ -34,6 +34,7 @@ BACK_URL_FAILURE=
 - `npm run build`: Compila el proyecto TypeScript a JavaScript
 - `npm runt start`: Compila y ejecuta el proyecto en producción
 - `npm test`: Ejecuta los tests del proyecto
+- `npm run test:watch`: Ejecuta los test en modo --watch
 
 ## Tests
 
