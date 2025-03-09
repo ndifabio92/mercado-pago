@@ -22,6 +22,10 @@ npm install
 PORT=4000
 DEVELOPMENT=true
 CORS_ORIGIN=http://localhost:3000,http://example.com
+MERCADO_PAGO_ACCESS_TOKEN=
+BACK_URL_SUCCESS=
+BACK_URL_PENDING=
+BACK_URL_FAILURE=
 ```
 
 ## Scripts Disponibles
