@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Botón de Pago Fijo Mercado Pago</title>
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
+</head>
+
+<body>
+    <button id="checkout-btn">Pagar $100 con Mercado Pago</button>
+    <div id="wallet_container"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const urlParams = new URLSearchParams(window.location.search);
+
+            // Verificar si la URL contiene "approved"
+            if (window.location.href.includes("approved")) {
+                const paymentId = urlParams.get("payment_id");
+
+                if (paymentId) {
+                    console.log("Payment ID:", paymentId);
+                    // Acá podés hacer algo con el paymentId, como enviarlo al backend
+                    const data = async () => {
+                        const response = await fetch(`http://localhost:4000/api/v1/mercadopago/payments/${paymentId}`, {
+                            method: 'GET',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                        });
+                        const data = await response.json();
+                        console.log('Respuesta del servidor:', data);
+                    }
+                    data();
+                }
+            }
+
+            const mp = new MercadoPago('PUBLIC_KEY'); // Reemplaza con tu PUBLIC_KEY
+
+            const bricksBuilder = mp.bricks();
+
+            const checkoutBtn = document.getElementById('checkout-btn');
+            const walletContainer = document.getElementById('wallet_container');
+
+            checkoutBtn.addEventListener('click', async () => {
+                const orderData = {
+                    items: [{
+                        title: 'Producto de pago fijo',
+                        unit_price: 100,
+                        quantity: 1
+                    }]
+                };
+
+                try {
+                    const response = await fetch('http://localhost:4000/api/v1/mercadopago/create-preference', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(orderData)
+                    });
+
+                    if (response.ok) {
+                        const { data } = await response.json();
+                        console.log('Respuesta del servidor:', data);
+                        console.log('payments', data.payments);
+                        // Inicializar el brick de Wallet con la preferencia recibida
+                        const walletBrickController = await bricksBuilder.create("wallet", "wallet_container", {
+                            initialization: {
+                                preferenceId: data.id, // Usar preference_id en lugar de init_point
+                                // redirectMode: 'modal'
+                            },
+                            callbacks: {
+                                onError: (error) => console.error(error),
+                                onReady: () => {
+                                    /* Llamado cuando el brick está listo */
+                                    walletBrickController.open();
+                                },
+                                onSubmit: () => {
+                                    console.log('onSubmit');
+                                }
+                            },
+                        });
+
+
+                        // Forzar la apertura del popup
+                        // walletBrickController.open();
+
+                    } else {
+                        console.error('Error en la solicitud al servidor:', response.status);
+                    }
+                } catch (error) {
+                    console.error('Error al enviar la solicitud:', error);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
