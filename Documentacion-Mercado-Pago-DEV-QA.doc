@@ -1,0 +1,638 @@
+Message-ID: <615558774.167.1741554075004@6402edf84fae>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_166_1119049192.1741554075004"
+
+------=_Part_166_1119049192.1741554075004
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Documentacion Mercado Pago DEV-QA</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Documentacion Mercado Pago DEV-QA</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"DocumentacionMercadoPagoDEV-QA-Integracion">Integracion</=
+h1>
+<h2 id=3D"DocumentacionMercadoPagoDEV-QA-Web">Web</h2>
+<p><a href=3D"https://www.mercadopago.com.ar/developers/es/docs/checkout-pr=
+o/integrate-checkout-pro/web" data-card-appearance=3D"inline" class=3D"exte=
+rnal-link" rel=3D"nofollow">https://www.mercadopago.com.ar/developers/es/do=
+cs/checkout-pro/integrate-checkout-pro/web</a></p>
+<h2 id=3D"DocumentacionMercadoPagoDEV-QA-Back">Back</h2>
+<p><a href=3D"https://www.mercadopago.com.ar/developers/es/docs/checkout-pr=
+o/integrate-preferences#editor_9" data-card-appearance=3D"inline" class=3D"=
+external-link" rel=3D"nofollow">https://www.mercadopago.com.ar/developers/e=
+s/docs/checkout-pro/integrate-preferences#editor_9</a></p>
+<h1 id=3D"DocumentacionMercadoPagoDEV-QA-Credenciales">Credenciales</h1>
+<p>Para crear credenciales <a href=3D"https://www.mercadopago.com.ar/develo=
+pers/es" data-card-appearance=3D"inline" class=3D"external-link" rel=3D"nof=
+ollow">https://www.mercadopago.com.ar/developers/es</a></p>
+<h2 id=3D"DocumentacionMercadoPagoDEV-QA-Comprador">Comprador</h2>
+<p>Usuario:</p>
+<p>Contrase;a:</p>
+<p></p>
+<p>Los datos que se usan son del vendedor para la configuracion del Front y=
+ del Back</p>
+<h2 id=3D"DocumentacionMercadoPagoDEV-QA-Vendedor">Vendedor</h2>
+<p>Usuario:</p>
+<p>Contrase;a:</p>
+<h3 id=3D"DocumentacionMercadoPagoDEV-QA-Front">Front</h3>
+<p>PUBLIC_KEY</p>
+<p>APP_USR-943dde0b-2c8f-4953-949f-f14d96d9c77c</p>
+<h3 id=3D"DocumentacionMercadoPagoDEV-QA-Back.1">Back</h3>
+<p>MERCADO_PAGO_ACCESS_TOKEN</p>
+<p>APP_USR-375383647700882-030823-416a4bc35171b334e8226fc450b84354-23094511=
+53<code>APP_USR-375383647700882-030823-416a4bc35171b334e8226fc450b84354-230=
+9451153</code></p>
+<h1 id=3D"DocumentacionMercadoPagoDEV-QA-TarjetasdePrueba">Tarjetas de Prue=
+ba</h1>
+<p><a href=3D"https://www.mercadopago.com.ar/developers/es/docs/checkout-pr=
+o/additional-content/your-integrations/test/cards" data-card-appearance=3D"=
+inline" class=3D"external-link" rel=3D"nofollow">https://www.mercadopago.co=
+m.ar/developers/es/docs/checkout-pro/additional-content/your-integrations/t=
+est/cards</a></p>
+<h3 id=3D"DocumentacionMercadoPagoDEV-QA-Tarjetasdecr=C3=A9dito">Tarjetas d=
+e cr=C3=A9dito</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"9b=
+c83355-4bdc-4f29-99be-8d902a29985e" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#e5e5e5" class=3D"confluenceTd">
+<p>Tarjeta</p></td>
+<td data-highlight-colour=3D"#e5e5e5" class=3D"confluenceTd">
+<p>N=C3=BAmero</p></td>
+<td data-highlight-colour=3D"#e5e5e5" class=3D"confluenceTd">
+<p>C=C3=B3digo de seguridad</p></td>
+<td data-highlight-colour=3D"#e5e5e5" class=3D"confluenceTd">
+<p>Fecha de caducidad</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Mastercard</p></td>
+<td class=3D"confluenceTd">
+<p>5031 7557 3453 0604</p></td>
+<td class=3D"confluenceTd">
+<p>123</p></td>
+<td class=3D"confluenceTd">
+<p>11/30</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Visa</p></td>
+<td class=3D"confluenceTd">
+<p>4509 9535 6623 3704</p></td>
+<td class=3D"confluenceTd">
+<p>123</p></td>
+<td class=3D"confluenceTd">
+<p>11/30</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>American Express</p></td>
+<td class=3D"confluenceTd">
+<p>3711 803032 57522</p></td>
+<td class=3D"confluenceTd">
+<p>1234</p></td>
+<td class=3D"confluenceTd">
+<p>11/30</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"DocumentacionMercadoPagoDEV-QA-Tarjetasded=C3=A9bito">Tarjetas de=
+ d=C3=A9bito</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"4d=
+c71006-f79d-40c2-a7eb-472ae0574a5a" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#e5e5e5" class=3D"confluenceTd">
+<p>Tarjeta</p></td>
+<td data-highlight-colour=3D"#e5e5e5" class=3D"confluenceTd">
+<p>N=C3=BAmero</p></td>
+<td data-highlight-colour=3D"#e5e5e5" class=3D"confluenceTd">
+<p>C=C3=B3digo de seguridad</p></td>
+<td data-highlight-colour=3D"#e5e5e5" class=3D"confluenceTd">
+<p>Fecha de caducidad</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Mastercard</p></td>
+<td class=3D"confluenceTd">
+<p>5287 3383 1025 3304</p></td>
+<td class=3D"confluenceTd">
+<p>123</p></td>
+<td class=3D"confluenceTd">
+<p>11/30</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Visa</p></td>
+<td class=3D"confluenceTd">
+<p>4002 7686 9439 5619</p></td>
+<td class=3D"confluenceTd">
+<p>123</p></td>
+<td class=3D"confluenceTd">
+<p>11/30</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Para <strong>probar diferentes resultados de pago</strong>, completa el =
+estado deseado en el nombre del titular (campo <code>card_holder_name</code=
+>) de la tarjeta:</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"fd=
+0fac81-6db0-4082-aea2-e433d37ee81e" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td data-highlight-colour=3D"#e5e5e5" class=3D"confluenceTd">
+<p>Estado de pago</p></td>
+<td data-highlight-colour=3D"#e5e5e5" class=3D"confluenceTd">
+<p>Descripci=C3=B3n</p></td>
+<td data-highlight-colour=3D"#e5e5e5" class=3D"confluenceTd">
+<p>Documento de identidad</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>APRO</code></p></td>
+<td class=3D"confluenceTd">
+<p>Pago aprobado</p></td>
+<td class=3D"confluenceTd">
+<p>(DNI) x</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>OTHE</code></p></td>
+<td class=3D"confluenceTd">
+<p>Rechazado por error general</p></td>
+<td class=3D"confluenceTd">
+<p>(DNI) 12345678</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>CONT</code></p></td>
+<td class=3D"confluenceTd">
+<p>Pendiente de pago</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>CALL</code></p></td>
+<td class=3D"confluenceTd">
+<p>Rechazado con validaci=C3=B3n para autorizar</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>FUND</code></p></td>
+<td class=3D"confluenceTd">
+<p>Rechazado por importe insuficiente</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>SECU</code></p></td>
+<td class=3D"confluenceTd">
+<p>Rechazado por c=C3=B3digo de seguridad inv=C3=A1lido</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>EXPI</code></p></td>
+<td class=3D"confluenceTd">
+<p>Rechazado debido a un problema de fecha de vencimiento</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>FORM</code></p></td>
+<td class=3D"confluenceTd">
+<p>Rechazado debido a un error de formulario</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>CARD</code></p></td>
+<td class=3D"confluenceTd">
+<p>Rechazado por falta de card_number</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>INST</code></p></td>
+<td class=3D"confluenceTd">
+<p>Rechazado por cuotas invalidas</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>DUPL</code></p></td>
+<td class=3D"confluenceTd">
+<p>Rechazado por pago duplicado</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>LOCK</code></p></td>
+<td class=3D"confluenceTd">
+<p>Rechazado por tarjeta deshabilitada</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>CTNA</code></p></td>
+<td class=3D"confluenceTd">
+<p>Rechazado por tipo de tarjeta no permitida</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>ATTE</code></p></td>
+<td class=3D"confluenceTd">
+<p>Rechazado debido a intentos excedidos del pin de la tarjeta</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>BLAC</code></p></td>
+<td class=3D"confluenceTd">
+<p>Rechazado por estar en lista negra</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>UNSU</code></p></td>
+<td class=3D"confluenceTd">
+<p>No soportado</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>TEST</code></p></td>
+<td class=3D"confluenceTd">
+<p>Usado para aplicar regla de montos</p></td>
+<td class=3D"confluenceTd">
+<p>-</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: html; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;!DO=
+CTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;title&gt;Bot=C3=B3n de Pago Fijo Mercado Pago&lt;/title&gt;
+    &lt;script src=3D"https://sdk.mercadopago.com/js/v2"&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;button id=3D"checkout-btn"&gt;Pagar $100 con Mercado Pago&lt;/butto=
+n&gt;
+    &lt;div id=3D"wallet_container"&gt;&lt;/div&gt;
+    &lt;script&gt;
+        document.addEventListener('DOMContentLoaded', function () {
+            const urlParams =3D new URLSearchParams(window.location.search)=
+;
+
+            // Verificar si la URL contiene "approved"
+            if (window.location.href.includes("approved")) {
+                const paymentId =3D urlParams.get("payment_id");
+
+                if (paymentId) {
+                    console.log("Payment ID:", paymentId);
+                    // Ac=C3=A1 pod=C3=A9s hacer algo con el paymentId, com=
+o enviarlo al backend
+                    const data =3D async () =3D&gt; {
+                        const response =3D await fetch(`http://localhost:40=
+00/api/v1/mercadopago/payments/${paymentId}`, {
+                            method: 'GET',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                        });
+                        const data =3D await response.json();
+                        console.log('Respuesta del servidor:', data);
+                    }
+                    data();
+                }
+            }
+
+            const mp =3D new MercadoPago('PUBLIC_KEY'); // Reemplaza con tu=
+ PUBLIC_KEY
+
+            const bricksBuilder =3D mp.bricks();
+
+            const checkoutBtn =3D document.getElementById('checkout-btn');
+            const walletContainer =3D document.getElementById('wallet_conta=
+iner');
+
+            checkoutBtn.addEventListener('click', async () =3D&gt; {
+                const orderData =3D {
+                    items: [{
+                        title: 'Producto de pago fijo',
+                        unit_price: 100,
+                        quantity: 1
+                    }]
+                };
+
+                try {
+                    const response =3D await fetch('http://localhost:4000/a=
+pi/v1/mercadopago/create_preference', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(orderData)
+                    });
+
+                    if (response.ok) {
+                        const { data } =3D await response.json();
+                        console.log('Respuesta del servidor:', data);
+                        console.log('payments', data.payments);
+                        // Inicializar el brick de Wallet con la preferenci=
+a recibida
+                        const walletBrickController =3D await bricksBuilder=
+.create("wallet", "wallet_container", {
+                            initialization: {
+                                preferenceId: data.id, // Usar preference_i=
+d en lugar de init_point
+                                // redirectMode: 'modal'
+                            },
+                            callbacks: {
+                                onError: (error) =3D&gt; console.error(erro=
+r),
+                                onReady: () =3D&gt; {
+                                    /* Llamado cuando el brick est=C3=A1 li=
+sto */
+                                    walletBrickController.open();
+                                },
+                                onSubmit: () =3D&gt; {
+                                    console.log('onSubmit');
+                                }
+                            },
+                        });
+
+
+                        // Forzar la apertura del popup
+                        // walletBrickController.open();
+
+                    } else {
+                        console.error('Error en la solicitud al servidor:',=
+ response.status);
+                    }
+                } catch (error) {
+                    console.error('Error al enviar la solicitud:', error);
+                }
+            });
+        });
+    &lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</pre>
+</div>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_166_1119049192.1741554075004--
